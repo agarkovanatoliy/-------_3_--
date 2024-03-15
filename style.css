@@ -14,10 +14,6 @@ img {
     max-width: 100%;
 }
 
-h1, p, a, button {
-    font-family: Gilroy-Medium;
-}
-
 .container {
     max-width: 1174px;
     margin: 0 auto;
@@ -28,7 +24,15 @@ h1, p, a, button {
     margin-bottom: 80px;
 }
 
-.navigation {}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigationReference {
+    display: flex;
+    gap: 14px;
+}
 
 .navigation a {
     font-size: 14px;
@@ -38,9 +42,14 @@ h1, p, a, button {
     margin-bottom: 98px;
 }
 
-.mainContent {}
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+}
 
-.mainContent__leftSide {}
+.mainContent__leftSide {
+    max-width: 556px;
+}
 
 .mainContent__leftSide h1 {
     font-weight: 700;
@@ -58,17 +67,36 @@ h1, p, a, button {
     margin-bottom: 32px;
 }
 
-.mainContent__leftSide-btnList{}
+.mainContent__leftSide-btnList{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
 
-.mainContent__leftSide-btnList button {
+.button1 {
+    border: #f25822;
     border-radius: 56px;
     padding: 16px 10px;
     font-weight: 600;
     font-size: 16px;
     color: #fff;
     cursor: pointer;
+    background: #f25822;
+}
+
+.button2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #aaa;
+    border: #fff;
+    background: #fff;
 }
 
 .footer {
     margin-bottom: 100px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
 }
