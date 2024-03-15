@@ -1,31 +1,3 @@
-@font-face{
-    font-family: "Gilroy-Bold";
-    src: url(./fonts/Gilroy-Bold.woff2) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face{
-    font-family: "Gilroy-Medium";
-    src: url(./fonts/Gilroy-Medium.woff2) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face{
-    font-family: "Gilroy-Regular";
-    src: url(./fonts/Gilroy-Regular.woff2) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face{
-    font-family: "Gilroy-Semibold";
-    src: url(./fonts/Gilroy-Semibold.woff2) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +6,7 @@
 
 body {
     scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
 }
 
 img {
